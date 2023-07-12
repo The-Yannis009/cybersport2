@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section_title {
+    color: #65d9fe;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section_text {
+    color: #fff;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+body {
+    background-color: #222222;
+}
+
+
+.navigation {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #222222;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+    box-shadow: 0 5px 20px black;
+    line-height: 80px;
+}
+
+.logo_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation_links {
+    float: right;
+
+
+}
+
+.navigation_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.navigation_link:hover {
+    text-shadow: 0px 20px 5px #65d9fd, 0px 0px 12px #65d9fd;
+}
+
+
+
+.header {
+    background: url('/img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg') center/cover no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+.header_content {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translate(0, -50%);
+    max-width: 40%;
+
+}
+
+.header_title {
+    color: #4e4e4e;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.header_sub_title {
+    color: #4e4e4e;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.header_button {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #65d9fd, #70feca);
+    padding: 20px 50px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.header_button:hover {
+    transform: scale(115%);
+    border-radius: 20px;
+}
+
+.header_button:active {
+    background-image: linear-gradient(180deg, #205768, #359672);
+}
+
+
+.about {
+    height: 30vh;
+    text-align: center;
+    padding: 35px 0;
+
+}
+
+.about_box {
+    display: inline-block;
+    margin-top: 50px;
+    width: 24%;
+    height: 200px;
+}
+
+.about_box img {
+    height: 120px;
+    margin-bottom: 20px;
+
+}
+
+.about_box p {
+    color: #65d9fe;
+    font-size: 23px;
+}
+
+
+.games {
+    padding: 35px 0;
+}
+
+.games_container {
+    box-shadow: 0 10px 20px black;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+
+
+.games_card {
+    margin: 30px 0 0 0;
+}
+
+.games_card1 {
+    margin: 30px 0 0 0;
+
+}
+
+.games_card_content {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.game_name {
+    color: #70feca;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.game_card_line {
+    width: 30%;
+    background-color: #70feca;
+    height: 3px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.game_card_description {
+    color: #f1f1f1;
+    text-align: left;
+    line-height: 25px;
+}
+
+.games_card_img {
+    display: inline-block;
+    background: url('img/csgo.jpg') center/cover no-repeat;
+    height: 300px;
+    width: 49%;
+    vertical-align: top;
+}
+
+.games_card2 {}
+
+.games_card2_img {
+    display: inline-block;
+    background: url('img/wg0gD2XINJXeJox3mrYSRoqA.webp') center/cover no-repeat;
+    height: 300px;
+    width: 49%;
+    vertical-align: top;
+}
+
+.games_card3 {}
+
+.games_card3_img {
+    display: inline-block;
+    background: url('img/dota2.jpg') center/cover no-repeat;
+    height: 300px;
+    width: 49%;
+    vertical-align: top;
+}
+
+
+
+.participate {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.discord {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.discord_tile {}
+
+
+.go_with_us {}
+
+.go_with_us_container {
+    box-shadow: 0 10px 20px black;
+    padding: 50px 0;
+}
+
+.go_with_us_title {
+    text-align: center;
+}
+
+.go_with_us_line {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.click_here {
+    background-color: #65d9fd;
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.click_here_title {
+    color: #fff;
+    font-size: 50px;
+    display: inline-block;
+    text-align: left;
+    line-height: 100px;
+}
+
+.click_here_button {
+    float: right;
+    line-height: 25px;
+    display: block;
+    max-width: fit-content;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #65d9fd, #70feca);
+    padding: 20px 50px;
+    color: #fff;
+    transition: 0.5s;
+    margin: 20px 0px;
+}

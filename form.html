@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <form class="form">
+        <div class="form_header">
+            <a href="landing.html" class="form_back-link">
+                < </a>
+                    <h2 class="form_title">request
+                    </h2>
+        </div>
+        <div class="form_body">
+            <fieldset class="fields_information">
+                <legend>your nickname in real life</legend>
+                <input type="text" class="name_input" placeholder="name(Bob)" name="name">
+                <input type="text" class="surname_input" placeholder="surname" name="surname">
+
+
+            </fieldset>
+            <h3 class="gender">your gender</h3>
+            <div class="input_wrapper">
+                <input type="radio" name="gender" value="male" class="gender_male" id="gender_male">
+                <label for="gender_male">Male</label>
+                <input type="radio" name="gender" value="female" class="gender_female" id="gender_female">
+                <label for="gender_female">Female</label>
+            </div>
+            <div class="input_wrapper">
+                <input type="checkbox" name="age" value="18-101" class="age" id="age">
+                <label for="age">18-101</label>
+            </div>
+            <div class="input_wrapper">
+                <label for="">your game</label>
+                <select name="game" id="game" class="game">
+                    <option value="CS:GO">CS:GO</option>
+                    <option value="farming simulator 22">farming simulator 22</option>
+                    <option value="Dota 2">Dota 2</option>
+                </select>
+            </div>
+            <textarea name="additonal_information" id="info" cols="30" rows="10"
+                placeholder="additonal information"></textarea>
+                <a href="form.html" class="form_button">send form</a>
+        </div>
+    </form>
+
+</body>
+
+</html>

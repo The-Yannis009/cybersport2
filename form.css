@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    max-width: 1000px;
+    margin: 50px auto;
+    box-shadow: 0 5px 20px black;
+}
+
+body {
+    background-color: #222222;
+}
+
+.form_header {
+    background-color: #65d9fe;
+    color: aliceblue;
+    text-align: center;
+    height: 40px;
+    position: relative;
+}
+
+.form_back-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    height: 100%;
+    width: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+
+.form_back-link:active {
+    background-color: #222222;
+}
+
+.form_back-link:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.form_title {}
+
+.form_body {
+    padding: 15px;
+}
+
+.fields_information {
+    padding: 15px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.fields_information input {
+    display: block;
+    background-color: #222222;
+    color: #969696;
+    width: 100%;
+    padding: 10px 5px 10px 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #969696;
+}
+
+.name_input {}
+
+.surname_input {}
+
+.gender {
+    color: aliceblue;
+    margin-bottom: 15px;
+
+}
+
+.input_wrapper {
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.input_wrapper input {
+    margin-right: 5px;
+}
+
+.gender_male {}
+
+.gender_female {
+    margin-left: 10px;
+}
+
+.age {}
+
+.game {
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    background-color: #222222;
+    color: #000;
+    width: 100%;
+}
+
+
+.form_button{
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #65d9fd, #70feca);
+    padding: 20px 50px;
+    color: #fff;
+    transition: 0.5s;
+    margin: 10px auto;
+}
