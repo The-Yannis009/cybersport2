@@ -69,7 +69,7 @@ body {
 
 
 .header {
-    background: url('/img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg') center/cover no-repeat;
+    background: url('img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg') center/cover no-repeat;
     height: 80vh;
     position: relative;
 }
@@ -276,4 +276,21 @@ body {
     color: #fff;
     transition: 0.5s;
     margin: 20px 0px;
+}
+
+
+
+@media (max-width:1024px){
+    .navigation{
+        height: fit-content;
+        position: static;
+    }
+    .navigation_links{
+        float: none;
+    }
+    .navigation_link{
+        display: block;
+        font-size: 35px;
+        width: fit-content;
+    }
 }
